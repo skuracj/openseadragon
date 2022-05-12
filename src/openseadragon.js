@@ -181,6 +181,9 @@
   *     controls.  Useful for presentation since the controls are by default
   *     floated on top of the image the user is viewing.
   *
+  * @property {Number} [controlsZIndex=2]
+  *     Z-index of ControlDock
+  *
   * @property {Boolean} [immediateRender=false]
   *     Render the best closest level first, ignoring the lowering levels which
   *     provide the effect of very blurry to sharp. It is recommended to change

@@ -1,7 +1,7 @@
 {
-  "name": "openseadragon",
+  "name": "openseadragon-cez",
   "version": "3.0.0",
-  "description": "Provides a smooth, zoomable user interface for HTML/Javascript.",
+  "description": "Provides a smooth, zoomable user interface for HTML/Javascript. Forked from:",
   "keywords": [
     "image",
     "zoom",
@@ -17,7 +17,7 @@
   "homepage": "https://openseadragon.github.io/",
   "funding": "https://opencollective.com/openseadragon",
   "bugs": {
-    "url": "https://github.com/openseadragon/openseadragon/issues"
+    "url": "https://github.com/skuracj/openseadragon/issues"
   },
   "license": "BSD-3-Clause",
   "files": [
@@ -26,7 +26,7 @@
   "main": "build/openseadragon/openseadragon.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/openseadragon/openseadragon.git"
+    "url": "https://github.com/skuracj/openseadragon.git"
   },
   "devDependencies": {
     "grunt": "^1.4.1",

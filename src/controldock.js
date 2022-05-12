@@ -68,6 +68,8 @@
             layout = layouts[ i ];
             this.controls[ layout ] = $.makeNeutralElement( "div" );
             this.controls[ layout ].style.position = 'absolute';
+            this.controls[ layout ].style.zIndex = options.controlsZIndex || 2;
+
             if ( layout.match( 'left' ) ){
                 this.controls[ layout ].style.left = '0px';
             }
