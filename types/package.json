@@ -1,0 +1,77 @@
+{
+  "_from": "@types/openseadragon",
+  "_id": "@types/openseadragon@3.0.3",
+  "_inBundle": false,
+  "_integrity": "sha512-qh9LilysFrZvM407R9K4Von10hZWD9JjLq6nmHEPz5GCqCjVXueoQGZUTfFv2K3Fzi7DPLFNxkx3AgJYli2OpA==",
+  "_location": "/@types/openseadragon",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@types/openseadragon",
+    "name": "@types/openseadragon",
+    "escapedName": "@types%2fopenseadragon",
+    "scope": "@types",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@types/openseadragon/-/openseadragon-3.0.3.tgz",
+  "_shasum": "a8ae0b84da721652a240d17db4c06b0bc43ddfff",
+  "_spec": "@types/openseadragon",
+  "bugs": {
+    "url": "https://github.com/DefinitelyTyped/DefinitelyTyped/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Álvaro Martínez",
+      "url": "https://github.com/alvaromartmart"
+    },
+    {
+      "name": "RobertYost",
+      "url": "https://github.com/RobertYost"
+    },
+    {
+      "name": "Jasper Staab",
+      "url": "https://github.com/jstaab"
+    },
+    {
+      "name": "Kristin Ruben",
+      "url": "https://github.com/kristinruben"
+    },
+    {
+      "name": "Geoff Harper",
+      "url": "https://github.com/geoff-harper"
+    },
+    {
+      "name": "Justin",
+      "url": "https://github.com/justincy"
+    },
+    {
+      "name": "Peter Blazejewicz",
+      "url": "https://github.com/peterblazejewicz"
+    }
+  ],
+  "dependencies": {},
+  "deprecated": false,
+  "description": "TypeScript definitions for OpenSeadragon",
+  "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/openseadragon",
+  "license": "MIT",
+  "main": "",
+  "name": "@types/openseadragon",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+    "directory": "types/openseadragon"
+  },
+  "scripts": {},
+  "typeScriptVersion": "3.9",
+  "types": "index.d.ts",
+  "typesPublisherContentHash": "7e448e8e1e059213f79d03fbca44a5ca985f6195b8edfd9c67487278ba187eb7",
+  "version": "3.0.3"
+}

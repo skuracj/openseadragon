@@ -1,6 +1,6 @@
 {
   "name": "openseadragon-cez",
-  "version": "3.0.0",
+  "version": "3.0.6",
   "description": "Provides a smooth, zoomable user interface for HTML/Javascript. Forked from:",
   "keywords": [
     "image",
@@ -24,6 +24,7 @@
     "build/openseadragon/"
   ],
   "main": "build/openseadragon/openseadragon.js",
+  "types": "build/openseadragon/types/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/skuracj/openseadragon.git"

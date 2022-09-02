@@ -251,6 +251,15 @@ module.exports = function(grunt) {
     });
 
     // ----------
+    // Copy:types task.
+    // Copies the image files into the appropriate location in the build folder.
+    grunt.registerTask("copy:types", function() {
+        grunt.file.recurse("types", function(abspath, rootdir, subdir, filename) {
+            grunt.file.copy(abspath, "build/openseadragon/types/" + (subdir || "") + filename);
+        });
+    });
+
+    // ----------
     // Copy:package task.
     // Creates a directory tree to be compressed into a package.
     grunt.registerTask("copy:package", function() {
@@ -308,7 +317,7 @@ module.exports = function(grunt) {
     // Cleans out the build folder and builds the code and images into it, checking lint.
     grunt.registerTask("build", [
         "clean:build", "git-describe", "eslint", "concat", "uglify",
-        "replace:cleanPaths", "copy:build"
+        "replace:cleanPaths", "copy:build", "copy:types"
     ]);
 
     // ----------
